@@ -1,12 +1,20 @@
-name: "VAWebsite"
-title: "My Website"
+name: "Visual_Analytics_Project"
+title: "Singapore Public Housing Market Watch"
 description: |
-  My Website
+  Singapore Public Housing Market Watch
 output_dir: "_site"
 navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Proposal"
+      href: proposal.html
+    - text: "Poster"
+      href: poster.html
+    - text: "Application"
+      href: application.html
+    - text: "Application User Guide"
+      href: application-user-guide.html
+    - text: "Research Paper"
+      href: research-paper.html
 output: distill::distill_article
