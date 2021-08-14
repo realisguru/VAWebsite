@@ -6,14 +6,14 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-15T01:50:03+08:00"
+      "last_modified": "2021-08-15T02:26:36+08:00"
     },
     {
       "path": "application.html",
       "title": "Application",
       "author": [],
       "contents": "\r\nOur Application can be found at shinyapp.io\r\nThe source code and data are available at RealisGuru Github\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-15T02:17:38+08:00"
+      "last_modified": "2021-08-15T02:26:44+08:00"
     },
     {
       "path": "index.html",
@@ -21,14 +21,14 @@
       "description": "ISSS608 Visual Analytic Project - G2 (Group7)\n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-15T01:50:12+08:00"
+      "last_modified": "2021-08-15T02:26:47+08:00"
     },
     {
       "path": "poster.html",
       "title": "Poster",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-15T01:50:15+08:00"
+      "last_modified": "2021-08-15T02:26:51+08:00"
     },
     {
       "path": "proposal.html",
@@ -36,7 +36,7 @@
       "description": "Our Team will research on the Singapore property pricing trends of public housing data over the last few years. In this study, we aim to use various visual analytics techniques to discover the trends and uncover interesting patterns and visual analytics we may offer to our application users. We will rely on the publicly available data from the HDB website to perform the analysis.",
       "author": [],
       "contents": "\r\nProject Objectives\r\nThe project aims to deliver an R-Shiny App that provides:\r\nInteractive user interface to allow users on selection of key parameters (such as Year, Month, Town and Flat type) to discover the part transactions and pricing trends.\r\nVisual maps representing the pricing view of the different flat types within Singapore towns.\r\nIncrease awareness on the past pricing trends to allow users to make informed decision of home buying.\r\n\r\nData Description\r\nData is publicly available real estate data which can be downloaded from Singapore Government website (https://data.gov.sg/dataset/resale-flat-prices). The data is published by Housing and Development Board (HDB).\r\nMetadata for Resale Flat Prices\r\nName: ‘resale-flat-prices’\r\nTitle: ‘Resale Flat Prices’\r\nDescription: - Resale transacted prices.\r\nPrior to March 2012, data is based on date of approval for the resale transactions.\r\nFor March 2012 onwards, the data is based on date of registration for the resale transactions.\r\nTopics: - Infrastructure\r\nKeywords: - ‘Cost of Living’\r\n‘HDB’\r\n‘Housing’\r\n‘Property’\r\n‘Public Housing’\r\n‘Resale Flats’\r\nPublisher: Name: ‘Housing and Development Board’\r\nSources: - ‘Housing and Development Board’\r\nLicense: ‘https://data.gov.sg/open-data-licence’\r\nFrequency: ‘Monthly’\r\nSchema / Attributes: ____________________________________________________________________________________________________________________ 1)Name: ‘month’ Title: ‘Month’ Type: ‘datetime’ Sub Type: ‘month’ Format: ‘YYYY-MM’ ____________________________________________________________________________________________________________________ 2)Name: ‘town’ Title: ‘Town’ Type: ‘text’ Sub Type: ‘general’ ____________________________________________________________________________________________________________________ 3)Name: ‘flat_type’ Title: ‘Flat type’ Type: ‘text’ Sub Type: ‘general’ ____________________________________________________________________________________________________________________ 4)Name: ‘block’ Title: ‘Block’ Type: ‘text’ Sub Type: ‘general’ ____________________________________________________________________________________________________________________ 5)Name: ‘street_name’ Title: ‘Street name’ Type: ‘text’ Sub Type: ‘general’ ____________________________________________________________________________________________________________________ 6)Name: ‘storey_range’ Title: ‘Storey range’ Type: ‘text’ Sub Type: ‘general’ ____________________________________________________________________________________________________________________ 7)Name: ‘floor_area_sqm’ Title: ‘Floor area sqm’ Type: ‘numeric’ Sub Type: ‘general’ Unit Of Measure: ‘sqm’ ____________________________________________________________________________________________________________________ 8)Name: ‘flat_model’ Title: ‘Flat model’ Type: ‘text’ Sub Type: ‘general’ ____________________________________________________________________________________________________________________ 9)Name: ‘lease_commence_date’ Title: ‘Lease commence date’ Type: ‘datetime’ Sub Type: ‘year’ Format: ‘YYYY’ ____________________________________________________________________________________________________________________ 10)Name: ‘remaining_lease’ Title: ‘Remaining lease’ Type: ‘text’ Sub Type: ‘general’ ____________________________________________________________________________________________________________________ 11)Name: ‘resale_price’ Title: ‘Resale price’ Type: ‘numeric’ Sub Type: ‘general’ Unit Of Measure: ‘$’ ____________________________________________________________________________________________________________________ Description & Key Notes\r\nThe approximate floor area includes any recess area purchased, space adding item under HDB’s upgrading programmes, roof terrace, etc.\r\nThe transactions exclude resale transactions that may not reflect the full market price such as resale between relatives and resale of part shares.\r\nResale prices should be taken as indicative only as the resale prices agreed between buyers and sellers are dependent on many factors.\r\n“Remaining lease” is the number of years left before the lease ends. This information is computed as at the resale flat application.\r\nProposed Scope and Methodology\r\nData Preparation in R\r\nConducting Exploratory Data Analysis in R\r\nVisualizing and Analyzing Time-Oriented Data (trend charts)\r\nUsing R Shiny to build web-enabled application (user-interactive)\r\nStoryboard & Visualization Features\r\nAs part of the proposal and project planning, we designed as a form of sketch how we want the application to look like and the usage itself.\r\n\r\nProject Timeline & Deliverables\r\nKey deliverable as part of our project would include the below:\r\n• Project Website\r\n• Project Github\r\n• R Shiny web application\r\n• Research paper\r\n• Poster\r\n• Project artifacts\r\n\r\nSoftware Tools\r\nRStudio: https://rstudio.com/\r\nR-Packages\r\nDuring the proposal stage, we foresee the usage of the following packages for building our application.\r\n• shiny: https://shiny.rstudio.com\r\n• tidyverse: https://www.tidyverse.org\r\n• DT: https://cran.r-project.org/web/packages/DT\r\n• plotly: https://cran.r-project.org/web/packages/plotly\r\n• ggplot2: https://cran.r-project.org/web/packages/ggplot2/index.html\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-15T02:18:42+08:00"
+      "last_modified": "2021-08-15T02:27:02+08:00"
     }
   ],
   "collections": []
