@@ -16,5 +16,5 @@ navbar:
     - text: "Application User Guide"
       href: application-user-guide.html
     - text: "Research Paper"
-      href: research-paper.html
+      href: VApaper.pdf
 output: distill::distill_article

@@ -7,3 +7,6 @@ site: distill::distill_article
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+Our Application can be found at [shinyapp.io](https://realisguru.shinyapps.io/VAapp/)
+
+The source code and data are available at [RealisGuru Github](https://github.com/realisguru)

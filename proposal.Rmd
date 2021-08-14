@@ -1,10 +1,190 @@
 ---
 title: "Proposal"
 description: |
-  Background and Project Scope, objectives and Methodology
+  Our Team will research on the Singapore property pricing trends of public housing data over the last few years. In this study, we aim to use various visual analytics techniques to discover the trends and uncover interesting patterns and visual analytics we may offer to our application users. We will rely on the publicly available data from the HDB website to perform the analysis.
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+# Project Objectives
+
+The project aims to deliver an R-Shiny App that provides:
+
+1.	Interactive user interface to allow users on selection of key parameters (such as Year, Month, Town and Flat type) to discover the part transactions and pricing trends.
+
+2.	Visual maps representing the pricing view of the different flat types within Singapore towns.
+
+3.  Increase awareness on the past pricing trends to allow users to make informed decision of home buying.
+
+![](IMG/img16.png)
+
+
+# Data Description
+Data is publicly available real estate data which can be downloaded from Singapore Government website (https://data.gov.sg/dataset/resale-flat-prices). The data is published by Housing and Development Board (HDB).
+
+*Metadata for Resale Flat Prices*
+---
+
+Name: 'resale-flat-prices'
+
+Title: 'Resale Flat Prices'
+
+Description:
+  - Resale transacted prices.
+  
+  - Prior to March 2012, data is based on date of approval for the resale transactions.
+  
+  - For March 2012 onwards, the data is based on date of registration for the resale
+    transactions.
+
+Topics:
+  - Infrastructure
+
+Keywords:
+  - 'Cost of Living'
+  
+  - 'HDB'
+  
+  - 'Housing'
+  
+  - 'Property'
+  
+  - 'Public Housing'
+  
+  - 'Resale Flats'
+
+Publisher:
+  Name: 'Housing and Development Board'
+
+Sources:
+  - 'Housing and Development Board'
+
+License: 'https://data.gov.sg/open-data-licence'
+
+Frequency: 'Monthly'
+
+Schema / Attributes:
+____________________________________________________________________________________________________________________
+1)Name: 'month'
+  Title: 'Month'
+  Type: 'datetime'
+  Sub Type: 'month'
+  Format: 'YYYY-MM'
+____________________________________________________________________________________________________________________
+2)Name: 'town'
+  Title: 'Town'
+  Type: 'text'
+  Sub Type: 'general'
+____________________________________________________________________________________________________________________
+3)Name: 'flat_type'
+  Title: 'Flat type'
+  Type: 'text'
+  Sub Type: 'general'
+____________________________________________________________________________________________________________________
+4)Name: 'block'
+  Title: 'Block'
+  Type: 'text'
+  Sub Type: 'general'
+____________________________________________________________________________________________________________________
+5)Name: 'street_name'
+  Title: 'Street name'
+  Type: 'text'
+  Sub Type: 'general'
+____________________________________________________________________________________________________________________
+6)Name: 'storey_range'
+  Title: 'Storey range'
+  Type: 'text'
+  Sub Type: 'general'
+____________________________________________________________________________________________________________________
+7)Name: 'floor_area_sqm'
+  Title: 'Floor area sqm'
+  Type: 'numeric'
+  Sub Type: 'general'
+  Unit Of Measure: 'sqm'
+____________________________________________________________________________________________________________________
+8)Name: 'flat_model'
+  Title: 'Flat model'
+  Type: 'text'
+  Sub Type: 'general'
+____________________________________________________________________________________________________________________
+9)Name: 'lease_commence_date'
+  Title: 'Lease commence date'
+  Type: 'datetime'
+  Sub Type: 'year'
+  Format: 'YYYY'
+____________________________________________________________________________________________________________________
+10)Name: 'remaining_lease'
+   Title: 'Remaining lease'
+   Type: 'text'
+   Sub Type: 'general'
+____________________________________________________________________________________________________________________
+11)Name: 'resale_price'
+   Title: 'Resale price'
+   Type: 'numeric'
+   Sub Type: 'general'
+   Unit Of Measure: '$'
+____________________________________________________________________________________________________________________
+*Description & Key Notes*
+
+1. The approximate floor area includes any recess area purchased, space adding
+  item under HDB’s upgrading programmes, roof terrace, etc.
+        
+2. The transactions exclude resale transactions that may not reflect the
+  full market price such as resale between relatives and resale of part shares.
+        
+3. Resale prices should be taken as indicative only as the resale prices
+  agreed between buyers and sellers are dependent on many factors.
+        
+4. "Remaining lease" is the number of years left before the lease ends. This
+  information is computed as at the resale flat application.
+
+# Proposed Scope and Methodology
+
+1.	Data Preparation in R
+2.	Conducting Exploratory Data Analysis in R
+3.	Visualizing and Analyzing Time-Oriented Data (trend charts)
+4.	Using R Shiny to build web-enabled application (user-interactive)
+
+# Storyboard & Visualization Features
+As part of the proposal and project planning, we designed as a form of sketch how we want the application to look like and the usage itself.
+
+![](IMG/img17.jpg)
+
+# Project Timeline & Deliverables 
+
+Key deliverable as part of our project would include the below:
+
+•	Project Website
+
+•	Project Github
+
+•	R Shiny web application
+
+•	Research paper
+
+•	Poster
+
+•	Project artifacts
+
+![](IMG/Timelines.jpg)
+
+# Software Tools
+
+RStudio: https://rstudio.com/
+
+# R-Packages
+
+During the proposal stage, we foresee the usage of the following packages for building our application.
+
+•	shiny: https://shiny.rstudio.com
+
+•	tidyverse: https://www.tidyverse.org
+
+•	DT: https://cran.r-project.org/web/packages/DT
+
+•	plotly: https://cran.r-project.org/web/packages/plotly
+
+•	ggplot2: https://cran.r-project.org/web/packages/ggplot2/index.html
 

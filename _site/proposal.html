@@ -88,27 +88,27 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_meta_tags-->
   <title>Singapore Public Housing Market Watch: Proposal</title>
 
-  <meta property="description" itemprop="description" content="Background and Project Scope, objectives and Methodology"/>
+  <meta property="description" itemprop="description" content="Our Team will research on the Singapore property pricing trends of public housing data over the last few years. In this study, we aim to use various visual analytics techniques to discover the trends and uncover interesting patterns and visual analytics we may offer to our application users. We will rely on the publicly available data from the HDB website to perform the analysis."/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Singapore Public Housing Market Watch: Proposal"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Background and Project Scope, objectives and Methodology"/>
+  <meta property="og:description" content="Our Team will research on the Singapore property pricing trends of public housing data over the last few years. In this study, we aim to use various visual analytics techniques to discover the trends and uncover interesting patterns and visual analytics we may offer to our application users. We will rely on the publicly available data from the HDB website to perform the analysis."/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Singapore Public Housing Market Watch"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:title" content="Singapore Public Housing Market Watch: Proposal"/>
-  <meta property="twitter:description" content="Background and Project Scope, objectives and Methodology"/>
+  <meta property="twitter:description" content="Our Team will research on the Singapore property pricing trends of public housing data over the last few years. In this study, we aim to use various visual analytics techniques to discover the trends and uncover interesting patterns and visual analytics we may offer to our application users. We will rely on the publicly available data from the HDB website to perform the analysis."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Proposal"]},{"type":"character","attributes":{},"value":["Background and Project Scope, objectives and Methodology"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Proposal"]},{"type":"character","attributes":{},"value":["Our Team will research on the Singapore property pricing trends of public housing data over the last few years. In this study, we aim to use various visual analytics techniques to discover the trends and uncover interesting patterns and visual analytics we may offer to our application users. We will rely on the publicly available data from the HDB website to perform the analysis."]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2053,7 +2053,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Proposal","description":"Background and Project Scope, objectives and Methodology","authors":[]}
+{"title":"Proposal","description":"Our Team will research on the Singapore property pricing trends of public housing data over the last few years. In this study, we aim to use various visual analytics techniques to discover the trends and uncover interesting patterns and visual analytics we may offer to our application users. We will rely on the publicly available data from the HDB website to perform the analysis.","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2069,7 +2069,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <a href="poster.html">Poster</a>
 <a href="application.html">Application</a>
 <a href="application-user-guide.html">Application User Guide</a>
-<a href="research-paper.html">Research Paper</a>
+<a href="VApaper.pdf">Research Paper</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -2082,11 +2082,77 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <h1>Proposal</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Background and Project Scope, objectives and Methodology</p></p>
+<p><p>Our Team will research on the Singapore property pricing trends of public housing data over the last few years. In this study, we aim to use various visual analytics techniques to discover the trends and uncover interesting patterns and visual analytics we may offer to our application users. We will rely on the publicly available data from the HDB website to perform the analysis.</p></p>
 </div>
 
 
 <div class="d-article">
+<h1 id="project-objectives">Project Objectives</h1>
+<p>The project aims to deliver an R-Shiny App that provides:</p>
+<ol type="1">
+<li><p>Interactive user interface to allow users on selection of key parameters (such as Year, Month, Town and Flat type) to discover the part transactions and pricing trends.</p></li>
+<li><p>Visual maps representing the pricing view of the different flat types within Singapore towns.</p></li>
+<li><p>Increase awareness on the past pricing trends to allow users to make informed decision of home buying.</p></li>
+</ol>
+<p><img src="img/img16.png" /></p>
+<h1 id="data-description">Data Description</h1>
+<p>Data is publicly available real estate data which can be downloaded from Singapore Government website (<a href="https://data.gov.sg/dataset/resale-flat-prices" class="uri">https://data.gov.sg/dataset/resale-flat-prices</a>). The data is published by Housing and Development Board (HDB).</p>
+<h2 id="metadata-for-resale-flat-prices"><em>Metadata for Resale Flat Prices</em></h2>
+<p>Name: ‘resale-flat-prices’</p>
+<p>Title: ‘Resale Flat Prices’</p>
+<p>Description: - Resale transacted prices.</p>
+<ul>
+<li><p>Prior to March 2012, data is based on date of approval for the resale transactions.</p></li>
+<li><p>For March 2012 onwards, the data is based on date of registration for the resale transactions.</p></li>
+</ul>
+<p>Topics: - Infrastructure</p>
+<p>Keywords: - ‘Cost of Living’</p>
+<ul>
+<li><p>‘HDB’</p></li>
+<li><p>‘Housing’</p></li>
+<li><p>‘Property’</p></li>
+<li><p>‘Public Housing’</p></li>
+<li><p>‘Resale Flats’</p></li>
+</ul>
+<p>Publisher: Name: ‘Housing and Development Board’</p>
+<p>Sources: - ‘Housing and Development Board’</p>
+<p>License: ‘<a href="https://data.gov.sg/open-data-licence" class="uri">https://data.gov.sg/open-data-licence</a>’</p>
+<p>Frequency: ‘Monthly’</p>
+<p>Schema / Attributes: ____________________________________________________________________________________________________________________ 1)Name: ‘month’ Title: ‘Month’ Type: ‘datetime’ Sub Type: ‘month’ Format: ‘YYYY-MM’ ____________________________________________________________________________________________________________________ 2)Name: ‘town’ Title: ‘Town’ Type: ‘text’ Sub Type: ‘general’ ____________________________________________________________________________________________________________________ 3)Name: ‘flat_type’ Title: ‘Flat type’ Type: ‘text’ Sub Type: ‘general’ ____________________________________________________________________________________________________________________ 4)Name: ‘block’ Title: ‘Block’ Type: ‘text’ Sub Type: ‘general’ ____________________________________________________________________________________________________________________ 5)Name: ‘street_name’ Title: ‘Street name’ Type: ‘text’ Sub Type: ‘general’ ____________________________________________________________________________________________________________________ 6)Name: ‘storey_range’ Title: ‘Storey range’ Type: ‘text’ Sub Type: ‘general’ ____________________________________________________________________________________________________________________ 7)Name: ‘floor_area_sqm’ Title: ‘Floor area sqm’ Type: ‘numeric’ Sub Type: ‘general’ Unit Of Measure: ‘sqm’ ____________________________________________________________________________________________________________________ 8)Name: ‘flat_model’ Title: ‘Flat model’ Type: ‘text’ Sub Type: ‘general’ ____________________________________________________________________________________________________________________ 9)Name: ‘lease_commence_date’ Title: ‘Lease commence date’ Type: ‘datetime’ Sub Type: ‘year’ Format: ‘YYYY’ ____________________________________________________________________________________________________________________ 10)Name: ‘remaining_lease’ Title: ‘Remaining lease’ Type: ‘text’ Sub Type: ‘general’ ____________________________________________________________________________________________________________________ 11)Name: ‘resale_price’ Title: ‘Resale price’ Type: ‘numeric’ Sub Type: ‘general’ Unit Of Measure: ‘$’ ____________________________________________________________________________________________________________________ <em>Description &amp; Key Notes</em></p>
+<ol type="1">
+<li><p>The approximate floor area includes any recess area purchased, space adding item under HDB’s upgrading programmes, roof terrace, etc.</p></li>
+<li><p>The transactions exclude resale transactions that may not reflect the full market price such as resale between relatives and resale of part shares.</p></li>
+<li><p>Resale prices should be taken as indicative only as the resale prices agreed between buyers and sellers are dependent on many factors.</p></li>
+<li><p>“Remaining lease” is the number of years left before the lease ends. This information is computed as at the resale flat application.</p></li>
+</ol>
+<h1 id="proposed-scope-and-methodology">Proposed Scope and Methodology</h1>
+<ol type="1">
+<li>Data Preparation in R</li>
+<li>Conducting Exploratory Data Analysis in R</li>
+<li>Visualizing and Analyzing Time-Oriented Data (trend charts)</li>
+<li>Using R Shiny to build web-enabled application (user-interactive)</li>
+</ol>
+<h1 id="storyboard-visualization-features">Storyboard &amp; Visualization Features</h1>
+<p>As part of the proposal and project planning, we designed as a form of sketch how we want the application to look like and the usage itself.</p>
+<p><img src="img/img17.jpg" /></p>
+<h1 id="project-timeline-deliverables">Project Timeline &amp; Deliverables</h1>
+<p>Key deliverable as part of our project would include the below:</p>
+<p>• Project Website</p>
+<p>• Project Github</p>
+<p>• R Shiny web application</p>
+<p>• Research paper</p>
+<p>• Poster</p>
+<p>• Project artifacts</p>
+<p><img src="IMG/Timelines.jpg" /></p>
+<h1 id="software-tools">Software Tools</h1>
+<p>RStudio: <a href="https://rstudio.com/" class="uri">https://rstudio.com/</a></p>
+<h1 id="r-packages">R-Packages</h1>
+<p>During the proposal stage, we foresee the usage of the following packages for building our application.</p>
+<p>• shiny: <a href="https://shiny.rstudio.com" class="uri">https://shiny.rstudio.com</a></p>
+<p>• tidyverse: <a href="https://www.tidyverse.org" class="uri">https://www.tidyverse.org</a></p>
+<p>• DT: <a href="https://cran.r-project.org/web/packages/DT" class="uri">https://cran.r-project.org/web/packages/DT</a></p>
+<p>• plotly: <a href="https://cran.r-project.org/web/packages/plotly" class="uri">https://cran.r-project.org/web/packages/plotly</a></p>
+<p>• ggplot2: <a href="https://cran.r-project.org/web/packages/ggplot2/index.html" class="uri">https://cran.r-project.org/web/packages/ggplot2/index.html</a></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
