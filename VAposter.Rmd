@@ -64,7 +64,7 @@ Using a **geofacet** package in R, we built the Singapore-styled map with to sho
 We used **plotly** package to construct a few charts by time period to understand the price movement by town.
 
 **Tool 3**: Resale Price Analyser (Box Plot)
-A **box plot** is used to understand the pricing range for every town by calculating the mean and median pricing. The is using **ggplotly** package. The chart also helps showcase if the price has a wide range.
+A **box plot** is used to understand the pricing range for every town by calculating the mean and median pricing. The is using **ggstatsplot** package. The chart also helps showcase if the price has a wide range.
 
 **Tool 4**: Resale Historical Data Search (Data table)
 This is an interactive **data table** search for the user where user can define the attributes and perform searches on past transactions.

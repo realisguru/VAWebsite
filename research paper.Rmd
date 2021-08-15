@@ -7,13 +7,13 @@ site: distill::distill_article
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# abstract:
+# Abstract:
 
   Singapore is a small country with limited land resources to convert into housing. With a growing population need to meet the aggressive economic demands, Singapore Government is encouraging current residents to have more children while simultaneously importing niche and raw talent from other countries to set up their base here. This is increasing the demand for both public and private housing. Public housing (also known as HDB) is subsidized by the government to give the citizens an opportunity to make their own homes at a lower cost. 
 
   While HDB website has some of the historical data, it does not have a 1 stop view of the island wide statistics. Through our R Shiny application, we hope to provide our users an interactive interface for them to perform adequate research around the property pricing in various estates. They can use different factors to perform searches and understand the historical pricing.
   
-  Firstly, we will use *plotly package* to construct a few charts by town to understand the basic statistics of the data. This would include the number of transactions, mean and median pricing. Then we would use a *box plot* to measure the pricing by different property types. This would be using the *ggplotly package*. Furthermore, using the *geofacet package*, we would showcase a geofacet of the various towns to indicate the average pricing by town as this would clearly show which town has high or low average resale values. Lastly, we have an *interactive application* for the user to select factors (as per his/her choice) and then understand the market conditions. This would include factors like town, flat type, area in psf/psm and remaining years of lease to understand the transaction history.
+  Firstly, we will use *plotly package* to construct a few charts by town to understand the basic statistics of the data. This would include the number of transactions, mean and median pricing. Then we would use a *box plot* to measure the pricing by different property types. This would be using the *ggstatsplot package*. Furthermore, using the *geofacet package*, we would showcase a geofacet of the various towns to indicate the average pricing by town as this would clearly show which town has high or low average resale values. Lastly, we have an *interactive application* for the user to select factors (as per his/her choice) and then understand the market conditions. This would include factors like town, flat type, area in psf/psm and remaining years of lease to understand the transaction history.
 
   With the one-stop application, a user can instantly retrieve information around the housing estate he/she is keen on.
 
