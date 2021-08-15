@@ -1,5 +1,5 @@
 ---
-title: "Application"
+title: "R Shiny Application and User Guide"
 site: distill::distill_article
 ---
 
@@ -7,6 +7,8 @@ site: distill::distill_article
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Our Application can be found at [shinyapp.io](https://realisguru.shinyapps.io/VAapp/)
+Our Shiny Application can be found at [shinyapp.io](https://realisguru.shinyapps.io/VAapp/)
+
+Please refer to the [R Shiny Application user guide](User Guide/UserGuide.pdf)
 
 The source code and data are available at [RealisGuru Github](https://github.com/realisguru)

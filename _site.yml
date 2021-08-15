@@ -11,10 +11,8 @@ navbar:
       href: proposal.html
     - text: "Poster"
       href: poster.html
-    - text: "Application"
+    - text: "R Shiny App and User Guide"
       href: application.html
-    - text: "Application User Guide"
-      href: User-Guide.pdf
     - text: "Research Paper"
-      href: VApaper.pdf
+      href: research-paper.html
 output: distill::distill_article
