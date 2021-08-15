@@ -17,4 +17,4 @@ knitr::opts_chunk$set(echo = TRUE)
 
   With the one-stop application, a user can instantly retrieve information around the housing estate he/she is keen on.
 
-**Click here to see our Practice Research Paper:** [Realis Guru - The One-Stop Help for HDB Buyers & Sellers](VApaper/VApaper.pdf)
+**Click here to view our Practice Research Paper:** [Realis Guru - The One-Stop Help for HDB Buyers & Sellers](VApaper/VApaper.pdf)

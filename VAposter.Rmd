@@ -1,0 +1,127 @@
+---
+output: 
+  posterdown::posterdown_betterport
+---
+---
+main_topsize: 0.1 #percent coverage of the poster
+main_bottomsize: 0.05
+#ESSENTIALS
+title: '**Realis-Guru: The One-Stop Help for New HDB Buyers/Sellers**'
+author:
+  - name: 'Amrita Mishra                |   Sng Kah Leong'
+    affil: 1
+    main: true
+    email: amritam.2020@mitb.smu.edu.sg |   klsng.2020@mitb.smu.edu.sg
+affiliation:
+  - num: 1
+    address: Singapore Management University
+main_findings:
+  - "**Realis-Guru** App is here to help **buyers and sellers**!"
+
+output: 
+  posterdown::posterdown_betterport:
+    self_contained: false
+    pandoc_args: --mathjax
+    number_sections: false
+bibliography: packages.bib
+link-citations: true
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      tidy = FALSE,
+                      message = FALSE,
+                      fig.align = 'center',
+                      out.width = "50%")
+options(knitr.table.format = "html") 
+```
+# About Realis-Guru
+Realis Guru is a newly formed group of 2 amateur Data Analyst enthusiasts **Amrita Mishra** and **Sng Kah Leong**. The group has just launched the first ever venture on **HDB Resale Pricing Analysis** in Singapore which is meant to help the user-base analyse the pricing behaviour before they purchase their first home or sell their home.
+
+The Visual Detective duo have purchased HDB in the past and were intrigued to know more about the pricing behaviour. Especially with the rising HDB prices despite the pandemic. HDB spans across the island in all estates. Some estates have more units owing to the density of the population while some estates have lesser units.
+
+Regardless of facilities, people do have preferences on which estate/town they want to live at. The behaviour and frequent transactions drive the prices of HDBs in certain estates higher than the others.The detective-duo set out to unravel the mystery around the HDB pricing by performing various analysis in R Markdown and R Shiny.
+
+```{r, include=FALSE}
+knitr::write_bib(c('posterdown', 'rmarkdown','pagedown'), 'packages.bib')
+```
+# Why Realis-Guru App?
+Singapore is a small country with **limited land resources**. There is an increasing demand for both public (HDB) and private housing. While HDB website has some of the historical data, it does not have a **1 stop view** of the island wide statistics. Through our R Shiny application, we hope to provide our users an **interactive interface** for them to perform adequate research around the property pricing in various estates. They can use different factors to perform searches and understand the historical pricing.
+
+**Realis-Guru** is a one-stop application for users to perform a holistic research around the property pricing in Singapore. Currently, there is no single tool available on web which makes this a pressing need for buyers and sellers to refer to. They may get **instant information** on latest transactions, compare pricing across towns and flat types and get latest insight on how the pricing is moving based on remaining years of lease.
+
+```{r, echo=FALSE, out.width="75%", fig.cap="Singapore District Map"}
+knitr::include_graphics("IMG/img19.jpg")
+```
+
+
+# Methods
+**Tool 1**: Geofacet View by a) Transaction Volumes & Flat-Type and b) Average Transaction Resale Prices across towns
+Using a **geofacet** package in R, we built the Singapore-styled map with to showcase the 2 main views.
+
+**Tool 2**: Transaction Volumes vs Average Pricing by town (A bar graph with line plot)
+We used **plotly** package to construct a few charts by time period to understand the price movement by town.
+
+**Tool 3**: Resale Price Analyser (Box Plot)
+A **box plot** is used to understand the pricing range for every town by calculating the mean and median pricing. The is using **ggplotly** package. The chart also helps showcase if the price has a wide range.
+
+**Tool 4**: Resale Historical Data Search (Data table)
+This is an interactive **data table** search for the user where user can define the attributes and perform searches on past transactions.
+
+# Results
+1. **Geofacet** view helps compare Average Pricing, transaction volumes, pricing by flat types across towns. Users can select even the remaining years of lease to check on how new or old the flats are which are transacting.
+
+```{r, echo=FALSE, out.width="85%", fig.cap="GeoFacet by Flat Type"}
+knitr::include_graphics("IMG/img12.png")
+```
+
+```{r, echo=FALSE, out.width="85%", fig.cap="GeoFacet by Average Pricing"}
+knitr::include_graphics("IMG/img11.jpg")
+```
+
+2. Transaction Volumes vs Average Pricing Analyser:
+With the **bar graph and a line plot** view, one may get instant information on latest transactions. Users may compare pricing and volume of transaction and even check data by year, town, flat-type and remaining years of lease – deep-diving by months.
+
+```{r, echo=FALSE, out.width="85%", fig.cap="Transaction volumes and Average Pricing Trend"}
+knitr::include_graphics("IMG/img13.jpg")
+```
+
+3. Resale Pricing Analysis by Flat-Type
+The **box plot** view indicates the pricing analysis by flat type. Users may compare statistics on the mean and median pricing by flat-type across towns to get an indication of pricing trends. They may check data by year, town, and remaining years of lease.
+
+```{r, echo=FALSE, out.width="85%", fig.cap="Box Plot by Flat-Type"}
+knitr::include_graphics("IMG/img14.jpg")
+```
+
+4.Interactive Dashboard
+The **data table** view allows users to browse through all the “Historical Pricing” from 2019 Jan onwards. They may perform Data Search Pricing by Town, Flat Type, Size in PSM / PSF. Details around street and block level data for deep dive analysis is also available by selecting “Price Range”. 
+
+```{r, echo=FALSE, out.width="85%", fig.cap="Interactive Dashbaord"}
+knitr::include_graphics("IMG/img15.jpg")
+```
+
+# Future Prospects
+Realis-Guru will use the **economic indicators** and data to perform **statistical analysis** to identify behaviour of purchasing HDBs.The analysis would include other indicative factors to understand why some estates are more popular than the others. Users will benefit from economic data and **predictive analysis** to understand HDB pricing before they decide to buy or sell their homes.
+
+Statistical analysis may include calculations such as correlation matrix, ANOVA charts, predictive modelling to forecast the price increase in future.
+
+# References
+https://ryanhafen.com/blog/geofacet/
+https://data.gov.sg/dataset/resale-flat-prices
+https://services2.hdb.gov.sg/web/fi10/emap.html
+https://www.srx.com.sg/price-index#
+https://www.edgeprop.sg/analytic/edgefairvalue
+https://www.asiaone.com/money/how-hot-singapore-property-market-2021
+
+# Visit our Website
+Please visit our website to learn more about the project journey. Scan the QR code below using your mobile phone to enter a world of Visual Analytics.
+```{r, echo=FALSE, out.width="50%", fig.cap="QR Code"}
+knitr::include_graphics("IMG/qrcode_vaproject.png")
+```
+
+# Feedback and Comments
+If you like our work, please drop us an email. Every appreciation would motivate us.
+If you did not like our work, please drop us an email on how we may further improve.
+
+                                              Thank You
