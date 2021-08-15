@@ -1,7 +1,7 @@
 name: "Visual_Analytics_Project"
-title: "Singapore Public Housing Market Watch"
+title: "Realis-Guru"
 description: |
-  Singapore Public Housing Market Watch
+  Singapore Public Housing Market Watch 2019-2021
 output_dir: "_site"
 navbar:
   right:

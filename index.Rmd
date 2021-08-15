@@ -1,7 +1,7 @@
 ---
 title: "Realis Guru - The One-Stop Help for HDB Buyers & Sellers"
 description: |
-  ISSS608 Visual Analytic Project - G2 (Group7)
+  ISSS608 Visual Analytics Project - G2 (Group7)
 site: distill::distill_website
 ---
 
